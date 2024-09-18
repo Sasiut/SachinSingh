@@ -2,6 +2,7 @@ def chatbot_response(user_input):
     responses = {
         "hi": "Hello! How can I help you?",
         "hello": "Hello! How can I help you?",
+        "helo": "Hello! How can I help you?",
         "bye": "Goodbye! Have a nice day!",
         "how are you": "I'm just a bunch of code, but I'm doing well!. What about you",
         "what's your name":"I'm a simple chatbot created to assist you!",
@@ -25,4 +26,4 @@ while True:
     user_input = input("You: ")
     if user_input.lower() == "exit":
         break
-    print("Chatbot:", chatbot_r
+    print("Chatbot:", chatbot_response(user_input))
